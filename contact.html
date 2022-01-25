@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Heavy Metal</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:800%7CCinzel+Decorative:700" rel="stylesheet">
+    <link href="estil.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Heavy Metal</h1>
+        <img src="G01.png" alt="GUITAR logo">
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="photos.html">Photos</a>
+                </li>
+                <li>
+                    <a href="videos.html">Videos</a>
+                </li>
+                <li>
+                    <a href="power.html">Power</a>
+                </li>
+                <li>
+                    <a href="albums.html">Albums</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Contact</h1>
+            <p>
+                <label for="name">
+                    Name:
+                    <strong>
+                        <abbr title="required">*</abbr>
+                    </strong>
+                </label>
+                <input type="text" id="name" name="username">
+            </p>
+            <p>
+                <label for="mail">
+                    E-mail:
+                    <strong>
+                        <abbr title="required">*</abbr>
+                    </strong>
+                </label>
+                <input type="email" id="mail" name="usermail">
+            </p>
+            <label for="card">
+                Favourite band:
+            </label>
+            <select id="card" name="package">
+                <option value="1">Judas Priest</option>
+                <option value="2">Manowar</option>
+                <option value="3">Helloween</option>
+                <option value="4">Gamma Ray</option>
+                <option value="5">Iron Maiden</option>
+            </select>
+            <br>
+            <fieldset>
+                <legend>Sex</legend>
+                <ul>
+                    <li>
+                        <label for="title_1">
+                            <input type="radio" id="title_1" name="sex" value="M">
+                            Male
+                        </label>
+                    </li>
+                    <li>
+                        <label for="title_2">
+                            <input type="radio" id="title_2" name="sex" value="F">
+                            Female
+                        </label>
+                    </li>
+                    <li>
+                        <label for="title_3">
+                            <input type="radio" id="title_3" name="sex" value="N">
+                            No binary
+                        </label>
+                    </li>
+                </ul>
+            </fieldset>
+            <fieldset>
+                <legend>What style do you prefer?</legend>
+                <p>
+                    <input type="checkbox" id="st1" name="style1" value="power">
+                    <label for="st1">Power Metal</label>
+                </p>
+                <p>
+                    <input type="checkbox" id="st2" name="style1" value="classic">
+                    <label for="style1">Classic Heavy Metal</label>
+                </p>
+            </fieldset>
+            <p>Comments</p>
+            <textarea cols="30" name="comments" rows="8"></textarea>
+            <br>
+            <button type="submit">Send form</button>
+            <button type="reset">Reset</button>
+        </section>
+    </main>
+    <footer>
+        <p>This is a test page. Any part of this code can be reused in any way you like. Created by Salva Mañó</p>
+        <p>
+            <a href="http://rafabasa.com">Best web of metal</a>
+        </p>
+    </footer>
+</body>
+
+</html>
